@@ -1,0 +1,28 @@
+{
+  "name": "skilled-elearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build",
+    "format": "prettier --write 'src/**/*.{js,jsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-hoeho:hooiyan/fem-skilled-elearning-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "parcel": "^2.5.0",
+    "prettier": "^2.6.2"
+  },
+  "browserlist": "> 0.5%, last 2 versions, not dead"
+}
